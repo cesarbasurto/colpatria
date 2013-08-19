@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame 
+       Remove this if you use the .htaccess -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Colpatria</title>
+	<meta name="description" content="" />
+	<meta name="author" content="cesaralfonso" />
+ 	<meta name="viewport" content="width=device-width; initial-scale=1.0" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+	  <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+</head>
+
+<body>
+	<div data-role="header" data-theme="d">
+    	<h1>Ascenso Torre Colpatria</h1>
+	</div>
+    <div data-role="content">
+    	
+        <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Buscar Atleta...">
+		    <li data-role="list-divider">Resultados <span class="ui-li-count">2</span></li>
+		    <li>
+			    <a href="index.html">	
+			    	<div class="ui-block" >
+				        <h2>Cesar Alfonso Basurto Cortes</h2>
+				        <p><strong>CC: 1.032.389.462</strong></p>
+				        <p>Categoria:  Abierta</p>
+				        <p class="ui-li-aside"><label for="flip-10">Asistio:</label>
+			            <select name="flip-10" id="flip-10" data-role="slider">
+			                <option value="off">No</option>
+			                <option value="on">Si</option>
+			            </select></p>
+					</div><!-- /ui-block -->
+			    </a>
+			</li>
+		    <li>
+		    	<a href="index.html">	
+			    	<div class="ui-block" >
+						<h2>Gerardo Marin Esteban</h2>
+						<p><strong>CC: 98.989.000</strong></p>
+						<p>Categoria: Mayores</p>
+				        <p class="ui-li-aside"><label for="flip-10">Asistio:</label>
+			            <select name="flip-10" id="flip-10" data-role="slider">
+			                <option value="off">No</option>
+			                <option value="on">Si</option>
+			            </select></p>
+					</div><!-- /ui-block -->
+		        </a>
+		    </li>
+		</ul>
+    </div>
+</body>
+</html>
